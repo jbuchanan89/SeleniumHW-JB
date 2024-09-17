@@ -1,2 +1,7 @@
-package org.example;public class WebDriverAssignment {
+package org.example;
+
+import org.openqa.selenium.WebDriver;
+
+public class WebDriverAssignment {
+
 }
