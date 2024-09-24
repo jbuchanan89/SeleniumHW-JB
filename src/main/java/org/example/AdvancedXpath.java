@@ -28,5 +28,14 @@ public class AdvancedXpath {
 
         WebElement favBook3 = driver.findElement(By.xpath("//input[@id='favouriteBook']/following-sibling::input[2]"));
         favBook3.sendKeys("The Women");
+
+        WebElement grand = driver.findElement(By.xpath("//div[@id='familyTree']/child::input[1]"));
+        grand.sendKeys("grandparent");
+
+        WebElement parent = driver.findElement(By.xpath("//div[@id='familyTree']/child::input[2]"));
+        parent.sendKeys("parent");
+
+        WebElement child = driver.findElement(By.xpath("//div[@id='familyTree']/child::input[3]"));
+        child.sendKeys("child");
     }
 }
