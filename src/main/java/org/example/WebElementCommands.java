@@ -54,7 +54,6 @@ public class WebElementCommands {
             } else if (option.getAttribute("value").equals("disabledCheckbox")){
                 System.out.println(option.isEnabled());
             }
-
         }
 //
 //                5. Input Field:
