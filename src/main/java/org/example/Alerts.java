@@ -1,4 +1,4 @@
-package HW;
+package org.example;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
